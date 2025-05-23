@@ -1,0 +1,93 @@
+{
+  "name": "Dang Xuan Loc",
+  "koreanName": "당쑤안록",
+  "birthdate": "2000-05-27",
+  "email": "ssuanloc@gmail.com",
+  "phone": "010-7116-1706",
+  "github": "https://github.com/locdeng",
+  "summary": "Flutter 기반 모바일 앱 개발자 지망생. Provider 및 Firebase를 활용한 상태 관리 경험이 있으며, 현재 React 학습 중. 다양한 플랫폼에서 일관된 사용자 경험 제공을 목표로 함.",
+  "skills": {
+    "languages": ["C (기초)", "Python (중급)"],
+    "frontend": ["Flutter (Dart)"],
+    "backend": ["Firebase (Auth, Firestore)"],
+    "tools": ["Git", "GitHub"]
+  },
+  "projects": [
+    {
+      "title": "YagSa - 약물 복용 관리 앱",
+      "duration": "2024.09 - 2024.12",
+      "type": "팀 프로젝트",
+      "stack": ["Flutter", "Firebase Auth", "Firebase Firestore", "Provider"],
+      "responsibility": "UI 개발, 상태 관리 구조 설계 및 Firebase 연동 (인증/데이터 저장). 사진 인증 및 캘린더 저장 기능은 팀원이 담당.",
+      "description": "사용자가 약 복용 시간을 잊지 않도록 알림을 제공하고, 복용 여부를 사진으로 인증하여 캘린더에 저장하는 모바일 앱.",
+      "outcomes": [
+        "약물 정보과 복용 시간의 UI와 추가/수정/삭제 기능 구현",
+        "Firebase Auth와 Firestore 연동, Firebase Auth와 Firestore를 기반으로 사용자 인증 및 실시간 복약 데이터 저장 기능 완성",
+        "Provider 구조를 도입하여 상태 관리 코드의 응집도 향상 및 버그 감소"
+      ],
+      "improvement": "Firebase Auth는 유지하면서, 사용자 데이터는 MySQL과 같은 별도 DB로 분리하여 확장성과 쿼리 성능 개선 가능.",
+      "github": "https://github.com/YagSa/YagSa-FE"
+    },
+    {
+      "title": "색상 인식 프로그램",
+      "duration": "2023.09 - 2023.12",
+      "type": "개인 프로젝트",
+      "stack": ["Python", "OpenCV", "HSV", "K-NN"],
+      "responsibility": "웹캠 프레임에서 색상 감지 알고리즘 구현 및 시각적 출력 처리",
+      "description": "웹캠 영상을 통해 실시간으로 색상을 인식하고 구분하는 프로그램. HSV 색공간과 K-NN 알고리즘을 기반으로 동작.",
+      "outcomes": [
+        "실시간 색상 인식 및 화면 출력",
+        "K-NN 기반 분류 모델 구축",
+        "조명 조건에 따라 정확도 편차 존재"
+      ],
+      "improvement": "다양한 색상 범위를 포함한 학습 데이터셋 추가와 RNN/CNN 기반 딥러닝 모델 도입으로 정확도 향상 가능.",
+      "github": "https://github.com/locdeng/Color-Detection"
+    },
+    {
+      "title": "항공권 가격 분석 및 예측",
+      "duration": "2023.10 - 2023.12",
+      "type": "개인 프로젝트",
+      "stack": ["Python", "NumPy", "Pandas", "scikit-learn", "Matplotlib"],
+      "responsibility": "데이터 전처리, 모델링, 평가 전반 수행",
+      "description": "대용량 항공권 데이터를 분석하고 가격을 예측하는 프로젝트. 다양한 회귀 알고리즘을 비교 분석함.",
+      "outcomes": [
+        "Random Forest 모델이 Linear Regression 대비 높은 R² 점수 획득",
+        "출발 시간, 항공사, 좌석 등급이 가격에 미치는 영향 분석",
+        "MSE, RMSE, MAE 지표로 성능 평가"
+      ],
+      "improvement": "추후 웹 기반 시각화 대시보드 추가 및 실시간 예측 기능 연동 가능.",
+      "github": "https://github.com/locdeng/Flight-Price-Analysis"
+    }
+  ],
+  "education": [
+    {
+      "institution": "중앙대학교 서울캠퍼스",
+      "degree": "학사",
+      "major": "소프트웨어학과",
+      "period": "2020.03 - 2025.02"
+    },
+    {
+      "institution": "중앙대학교 언어교육원",
+      "program": "한국어교육과정",
+      "period": "2018.11 - 2019.10"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Korean Language Proficiency (TOPIK)",
+      "level": "5급",
+      "issuedBy": "국립국제교육원장",
+      "date": "2024.02.21"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Korean",
+      "level": "TOPIK 5급"
+    },
+    {
+      "language": "English",
+      "level": "중급~상급 수준, 일상적인 업무 소통 가능"
+    }
+  ]
+}
